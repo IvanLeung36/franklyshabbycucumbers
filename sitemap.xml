@@ -3,16 +3,19 @@
   <url>
     <loc>https://IvanLeung36.github.io/franklyshabbycucumber/</loc>
     <lastmod>2025-02-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://IvanLeung36.github.io/franklyshabbycucumber/es/</loc>
     <lastmod>2025-02-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://IvanLeung36.github.io/franklyshabbycucumber/zh/</loc>
     <lastmod>2025-02-06</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>

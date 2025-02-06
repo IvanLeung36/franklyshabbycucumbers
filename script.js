@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
     startGameBtn.disabled = true
     
     let cucumber = document.createElement('img')
-    cucumber.src = '../images/image.png' // Fixed path for zh and es pages
+    cucumber.src = '/images/image.png' // Fixed path for zh and es pages
     cucumber.alt = 'Cucumber'
     cucumber.id = 'cucumber'
     cucumber.style.position = 'absolute'
