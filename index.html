@@ -19,11 +19,12 @@
   <meta property="og:description" content="Discover everything about the Frankly Shabby Cucumber—a unique and intriguing vegetable phenomenon.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://IvanLeung36.github.io/franklyshabbycucumber/">
-  <meta property="og:image" content="https://IvanLeung36.github.io/franklyshabbycucumber/images/og-image.jpg">
+  <meta property="og:image" content="images/image.png">
   
   <title>Frankly Shabby Cucumber - English</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- For the English version (in root), the favicon path is "image.png"; in subdirectories use "../image.png" -->
+  <link rel="icon" href="image.png" type="image/png">
   
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -36,39 +37,69 @@
   </script>
 </head>
 <body>
+  <!-- Hero Section with Language Switcher -->
   <header class="hero">
     <nav>
       <ul class="language-switcher">
-        <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/">English</a></li>
-        <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/es/">Español</a></li>
-        <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/zh/">中文</a></li>
+         <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/">English</a></li>
+         <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/es/">Español</a></li>
+         <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/zh/">中文</a></li>
       </ul>
     </nav>
     <div class="hero-content">
-      <h1>Frankly Shabby Cucumber</h1>
-      <p>Your ultimate source on the uniquely intriguing cucumber.</p>
+       <h1>Frankly Shabby Cucumber</h1>
+       <p>Your ultimate source on the uniquely intriguing cucumber phenomenon.</p>
+       <button id="learnMoreBtn" class="cta-button">Learn More</button>
     </div>
   </header>
   
+  <!-- Main Content -->
   <main>
-    <section class="content-section">
-      <h2>What is a Frankly Shabby Cucumber?</h2>
-      <p>
-        The Frankly Shabby Cucumber is a rare, intriguing vegetable known for its distinct appearance and mysterious origins. Dive into its history, unique traits, and culinary wonders.
-      </p>
-      <img src="images/hero.jpg" alt="Frankly Shabby Cucumber" class="responsive-img">
+    <!-- About Section -->
+    <section class="content-section" id="about">
+       <h2>About the Cucumber</h2>
+       <p>
+         The Frankly Shabby Cucumber is not just any vegetable—it's a marvel of nature that challenges the conventional views of produce. With its quirky shape and surprising flavor, it has captivated food enthusiasts worldwide.
+       </p>
+       <img src="images/image.png" alt="Frankly Shabby Cucumber" class="responsive-img">
     </section>
     
-    <section class="content-section">
-      <h2>Why is it Unique?</h2>
-      <p>
-        Unlike typical cucumbers, this cucumber stands out with its unusual texture and flavor that have fascinated chefs and food enthusiasts worldwide.
-      </p>
+    <!-- Gallery Section -->
+    <section class="content-section" id="gallery">
+       <h2>Gallery</h2>
+       <div class="gallery">
+         <img src="images/image.png" alt="Gallery Image 1" class="gallery-img">
+         <img src="images/image.png" alt="Gallery Image 2" class="gallery-img">
+         <img src="images/image.png" alt="Gallery Image 3" class="gallery-img">
+       </div>
+    </section>
+    
+    <!-- Features Section with Modal -->
+    <section class="content-section" id="features">
+       <h2>Unique Features</h2>
+       <p>
+         Experience the crisp texture and delightful flavor that defies the ordinary. Discover the fascinating story behind this extraordinary vegetable.
+       </p>
+       <button id="showFeaturesBtn" class="cta-button">Show Features</button>
+       <!-- Modal Structure -->
+       <div id="featuresModal" class="modal">
+         <div class="modal-content">
+           <span class="close">&times;</span>
+           <h3>Features</h3>
+           <ul>
+             <li>Unique texture</li>
+             <li>Distinct taste</li>
+             <li>Mysterious origins</li>
+             <li>Culinary versatility</li>
+           </ul>
+         </div>
+       </div>
     </section>
   </main>
   
+  <!-- Footer with Back-to-Top Button -->
   <footer>
-    <p>&copy; 2025 Frankly Shabby Cucumber</p>
+    <p>&copy; 2025 Frankly Shabby Cucumber. All Rights Reserved.</p>
     <button id="backToTop" title="Back to Top">↑</button>
   </footer>
   
