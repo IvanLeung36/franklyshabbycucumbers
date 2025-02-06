@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ivanLeung36.github.io/franklyshabbycucumber/sitemap.xml
+Sitemap: https://IvanLeung36.github.io/franklyshabbycucumber/sitemap.xml
