@@ -39,7 +39,7 @@
     color: #ffcc00;
   }
   
-  /* Hero Section */
+  /* HERO SECTION */
   .hero {
     position: relative;
     height: 400px;
@@ -79,9 +79,9 @@
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
   }
   
-  /* CTA Button */
+  /* CTA Buttons */
   .cta-button {
-    background: #ffcc00;
+    background: linear-gradient(45deg, #ffcc00, #ffdd33);
     border: none;
     padding: 12px 24px;
     font-size: 1em;
@@ -90,14 +90,15 @@
     border-radius: 30px;
     cursor: pointer;
     transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   }
   
   .cta-button:hover {
-    background: #e6b800;
+    background: linear-gradient(45deg, #e6b800, #ffd633);
     transform: scale(1.05);
   }
   
-  /* Main Content */
+  /* MAIN CONTENT */
   main {
     max-width: 1000px;
     margin: 40px auto;
@@ -137,7 +138,7 @@
     transform: scale(1.03);
   }
   
-  /* Gallery */
+  /* GALLERY */
   .gallery {
     display: flex;
     justify-content: space-between;
@@ -149,13 +150,14 @@
     width: 32%;
     border-radius: 8px;
     transition: transform 0.3s;
+    cursor: pointer;
   }
   
   .gallery-img:hover {
     transform: scale(1.05);
   }
   
-  /* Modal */
+  /* MODAL (Features Section) */
   .modal {
     display: none; /* Hidden by default */
     position: fixed; 
@@ -204,17 +206,25 @@
     color: #000;
   }
   
-  /* Reveal Animation */
-  .reveal {
-    animation: fadeInUp 1s forwards;
-    opacity: 1;
-  }
-  @keyframes fadeInUp {
-    from { transform: translateY(20px); opacity: 0; }
-    to { transform: translateY(0); opacity: 1; }
+  /* GAME SECTION */
+  #gameArea {
+    margin: 20px auto;
+    width: 100%;
+    height: 300px;
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    background: #f0f0f0;
   }
   
-  /* Footer */
+  #gameStats {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+  }
+  
+  /* FOOTER */
   footer {
     background: #333;
     color: #fff;
@@ -227,7 +237,7 @@
     margin-bottom: 10px;
   }
   
-  /* Back to Top Button */
+  /* Back-to-Top Button */
   #backToTop {
     background: #ffcc00;
     border: none;
@@ -245,6 +255,16 @@
   
   #backToTop:hover {
     background: #e6b800;
+  }
+  
+  /* Reveal Animation */
+  .reveal {
+    animation: fadeInUp 1s forwards;
+    opacity: 1;
+  }
+  @keyframes fadeInUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
   }
   
   /* Responsive Design */

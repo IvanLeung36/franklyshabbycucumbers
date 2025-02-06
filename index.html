@@ -23,7 +23,7 @@
   
   <title>Frankly Shabby Cucumber - English</title>
   <link rel="stylesheet" href="styles.css">
-  <!-- For the English version (in root), the favicon path is "image.png"; in subdirectories use "../image.png" -->
+  <!-- Favicon: For root pages use "image.png"; for subdirectories use "../image.png" -->
   <link rel="icon" href="image.png" type="image/png">
   
   <!-- Structured Data -->
@@ -37,7 +37,7 @@
   </script>
 </head>
 <body>
-  <!-- Hero Section with Language Switcher -->
+  <!-- HERO SECTION with Language Switcher -->
   <header class="hero">
     <nav>
       <ul class="language-switcher">
@@ -53,13 +53,13 @@
     </div>
   </header>
   
-  <!-- Main Content -->
+  <!-- MAIN CONTENT -->
   <main>
     <!-- About Section -->
     <section class="content-section" id="about">
        <h2>About the Cucumber</h2>
        <p>
-         The Frankly Shabby Cucumber is not just any vegetable—it's a marvel of nature that challenges the conventional views of produce. With its quirky shape and surprising flavor, it has captivated food enthusiasts worldwide.
+         The Frankly Shabby Cucumber is not just any vegetable—it's a marvel of nature that challenges conventional produce. With its quirky shape and surprising flavor, it has captivated food enthusiasts worldwide.
        </p>
        <img src="images/image.png" alt="Frankly Shabby Cucumber" class="responsive-img">
     </section>
@@ -69,8 +69,8 @@
        <h2>Gallery</h2>
        <div class="gallery">
          <img src="images/image.png" alt="Gallery Image 1" class="gallery-img">
-         <img src="images/image.png" alt="Gallery Image 2" class="gallery-img">
-         <img src="images/image.png" alt="Gallery Image 3" class="gallery-img">
+         <img src="images/image2.png" alt="Gallery Image 2" class="gallery-img">
+         <img src="images/image3.png" alt="Gallery Image 3" class="gallery-img">
        </div>
     </section>
     
@@ -95,9 +95,21 @@
          </div>
        </div>
     </section>
+    
+    <!-- Cucumber Clicker Game Section -->
+    <section class="content-section" id="game">
+       <h2>Cucumber Clicker Game</h2>
+       <p>Click the moving cucumber as many times as you can before time runs out!</p>
+       <button id="startGameBtn" class="cta-button">Start Game</button>
+       <div id="gameArea"></div>
+       <div id="gameStats">
+         <p>Score: <span id="score">0</span></p>
+         <p>Time Left: <span id="timeLeft">15</span> seconds</p>
+       </div>
+    </section>
   </main>
   
-  <!-- Footer with Back-to-Top Button -->
+  <!-- FOOTER with Back-to-Top Button -->
   <footer>
     <p>&copy; 2025 Frankly Shabby Cucumber. All Rights Reserved.</p>
     <button id="backToTop" title="Back to Top">↑</button>
