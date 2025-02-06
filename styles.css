@@ -12,11 +12,13 @@
     line-height: 1.6;
   }
   
-  /* Navigation */
   nav {
     background: #333;
     padding: 10px;
+    position: relative;
+    z-index: 2; /* This ensures the language links are clickable */
   }
+  
   
   .language-switcher {
     list-style: none;

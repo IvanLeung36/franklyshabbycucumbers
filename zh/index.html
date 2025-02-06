@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- SEO Meta Tags (Traditional Chinese) -->
-  <meta name="description" content="探索徹底寒酸的黃瓜——一個獨特而引人入勝的蔬菜現象。">
+  <meta name="description" content="探索徹底寒酸的黃瓜——一個獨特且引人入勝的蔬菜現象。">
   <meta name="keywords" content="徹底寒酸的黃瓜, 獨特黃瓜, 稀有蔬菜, 趣味美食">
   <meta name="author" content="Your Name">
   <link rel="canonical" href="https://IvanLeung36.github.io/franklyshabbycucumber/zh/">
@@ -16,14 +16,14 @@
   
   <!-- Open Graph Tags (Traditional Chinese) -->
   <meta property="og:title" content="徹底寒酸的黃瓜">
-  <meta property="og:description" content="探索徹底寒酸的黃瓜——一個獨特而引人入勝的蔬菜現象。">
+  <meta property="og:description" content="探索徹底寒酸的黃瓜——一個獨特且引人入勝的蔬菜現象。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://IvanLeung36.github.io/franklyshabbycucumber/zh/">
-  <meta property="og:image" content="https://IvanLeung36.github.io/franklyshabbycucumber/images/og-image.jpg">
+  <meta property="og:image" content="../images/image.png">
   
   <title>徹底寒酸的黃瓜 - 中文</title>
   <link rel="stylesheet" href="../styles.css">
-  <link rel="icon" href="../image.png" type="image/x-icon">
+  <link rel="icon" href="../image.png" type="image/png">
   
   <!-- Structured Data (Traditional Chinese) -->
   <script type="application/ld+json">
@@ -36,39 +36,81 @@
   </script>
 </head>
 <body>
+  <!-- HERO SECTION with Language Switcher -->
   <header class="hero">
     <nav>
       <ul class="language-switcher">
-        <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/">English</a></li>
-        <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/es/">Español</a></li>
-        <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/zh/">中文</a></li>
+         <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/">English</a></li>
+         <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/es/">Español</a></li>
+         <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/zh/">中文</a></li>
       </ul>
     </nav>
     <div class="hero-content">
-      <h1>徹底寒酸的黃瓜</h1>
-      <p>這是關於獨特而引人入勝的黃瓜的終極資訊來源。</p>
+       <h1>徹底寒酸的黃瓜</h1>
+       <p>您探索獨特而引人入勝黃瓜現象的終極資訊來源。</p>
+       <button id="learnMoreBtn" class="cta-button">瞭解更多</button>
     </div>
   </header>
   
+  <!-- MAIN CONTENT -->
   <main>
-    <section class="content-section">
-      <h2>什麼是徹底寒酸的黃瓜？</h2>
-      <p>
-        徹底寒酸的黃瓜是一種罕見且引人入勝的蔬菜，以其獨特的外觀和神秘的起源而聞名。探索它的歷史、獨特特徵和烹飪妙用。
-      </p>
-      <img src="../images/image.png" alt="徹底寒酸的黃瓜" class="responsive-img">
+    <!-- About Section -->
+    <section class="content-section" id="about">
+       <h2>關於黃瓜</h2>
+       <p>
+         徹底寒酸的黃瓜不僅僅是一種蔬菜——它是大自然的一個奇蹟，挑戰著傳統觀念。憑藉其古怪的形狀和令人驚喜的口味，它吸引了全球美食愛好者的目光。
+       </p>
+       <img src="../images/image.png" alt="徹底寒酸的黃瓜" class="responsive-img">
     </section>
     
-    <section class="content-section">
-      <h2>為什麼它如此獨特？</h2>
-      <p>
-        與一般黃瓜不同，這款黃瓜具有異常的質地和風味，吸引了廚師與美食愛好者的廣泛關注。
-      </p>
+    <!-- Gallery Section -->
+    <section class="content-section" id="gallery">
+       <h2>畫廊</h2>
+       <div class="gallery">
+         <img src="../images/image.png" alt="畫廊圖片1" class="gallery-img">
+         <img src="../images/image2.png" alt="畫廊圖片2" class="gallery-img">
+         <img src="../images/image3.png" alt="畫廊圖片3" class="gallery-img">
+       </div>
+    </section>
+    
+    <!-- Features Section with Modal -->
+    <section class="content-section" id="features">
+       <h2>獨特特性</h2>
+       <p>
+         體驗那超乎尋常的口感和獨具特色的風味。探索這種非凡蔬菜背後的迷人故事。
+       </p>
+       <button id="showFeaturesBtn" class="cta-button">展示特性</button>
+       <!-- Modal Structure -->
+       <div id="featuresModal" class="modal">
+         <div class="modal-content">
+           <span class="close">&times;</span>
+           <h3>特性</h3>
+           <ul>
+             <li>獨特口感</li>
+             <li>獨特風味</li>
+             <li>神秘起源</li>
+             <li>烹飪多樣性</li>
+           </ul>
+         </div>
+       </div>
+    </section>
+    
+    <!-- Cucumber Clicker Game Section -->
+    <section class="content-section" id="game">
+       <h2>黃瓜點擊遊戲</h2>
+       <p>在時間耗盡之前，盡可能多地點擊移動中的黃瓜！</p>
+       <button id="startGameBtn" class="cta-button">開始遊戲</button>
+       <div id="gameArea"></div>
+       <div id="gameStats">
+         <p>分數：<span id="score">0</span></p>
+         <p>剩餘時間：<span id="timeLeft">15</span> 秒</p>
+       </div>
     </section>
   </main>
   
+  <!-- FOOTER with Back-to-Top Button -->
   <footer>
-    <p>&copy; 2025 徹底寒酸的黃瓜</p>
+    <p>&copy; 2025 徹底寒酸的黃瓜。版權所有。</p>
     <button id="backToTop" title="返回頂部">↑</button>
   </footer>
   

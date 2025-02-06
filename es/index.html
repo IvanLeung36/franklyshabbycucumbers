@@ -19,11 +19,12 @@
   <meta property="og:description" content="Descubre todo sobre el Pepino Francamente Desaliñado, un fenómeno vegetal único e intrigante.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://IvanLeung36.github.io/franklyshabbycucumber/es/">
-  <meta property="og:image" content="https://IvanLeung36.github.io/franklyshabbycucumber/images/og-image.jpg">
+  <meta property="og:image" content="../images/image.png">
   
   <title>Pepino Francamente Desaliñado - Español</title>
   <link rel="stylesheet" href="../styles.css">
-  <link rel="icon" href="../image.png" type="image/x-icon">
+  <!-- Favicon for subdirectory pages -->
+  <link rel="icon" href="../image.png" type="image/png">
   
   <!-- Structured Data (Spanish) -->
   <script type="application/ld+json">
@@ -36,39 +37,81 @@
   </script>
 </head>
 <body>
+  <!-- HERO SECTION with Language Switcher -->
   <header class="hero">
     <nav>
       <ul class="language-switcher">
-        <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/">English</a></li>
-        <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/es/">Español</a></li>
-        <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/zh/">中文</a></li>
+         <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/">English</a></li>
+         <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/es/">Español</a></li>
+         <li><a href="https://IvanLeung36.github.io/franklyshabbycucumber/zh/">中文</a></li>
       </ul>
     </nav>
     <div class="hero-content">
-      <h1>Pepino Francamente Desaliñado</h1>
-      <p>Tu fuente definitiva sobre el pepino intrigantemente único.</p>
+       <h1>Pepino Francamente Desaliñado</h1>
+       <p>Tu fuente definitiva sobre el intrigante fenómeno del pepino único.</p>
+       <button id="learnMoreBtn" class="cta-button">Aprende más</button>
     </div>
   </header>
   
+  <!-- MAIN CONTENT -->
   <main>
-    <section class="content-section">
-      <h2>¿Qué es un Pepino Francamente Desaliñado?</h2>
-      <p>
-        El Pepino Francamente Desaliñado es un vegetal raro e intrigante, conocido por su apariencia única y orígenes misteriosos. Sumérgete en su historia, rasgos únicos y maravillas culinarias.
-      </p>
-      <img src="../images/image.png" alt="Pepino Francamente Desaliñado" class="responsive-img">
+    <!-- About Section -->
+    <section class="content-section" id="about">
+       <h2>Acerca del Pepino</h2>
+       <p>
+         El Pepino Francamente Desaliñado no es un vegetal cualquiera: es una maravilla de la naturaleza que desafía lo convencional. Con su forma peculiar y sabor sorprendente, ha cautivado a los amantes de la gastronomía en todo el mundo.
+       </p>
+       <img src="../images/image.png" alt="Pepino Francamente Desaliñado" class="responsive-img">
     </section>
     
-    <section class="content-section">
-      <h2>¿Por qué es único?</h2>
-      <p>
-        A diferencia de los pepinos típicos, este pepino destaca por su textura y sabor inusuales, que han fascinado a chefs y entusiastas de la gastronomía en todo el mundo.
-      </p>
+    <!-- Gallery Section -->
+    <section class="content-section" id="gallery">
+       <h2>Galería</h2>
+       <div class="gallery">
+         <img src="../images/image.png" alt="Imagen de la Galería 1" class="gallery-img">
+         <img src="../images/image2.png" alt="Imagen de la Galería 2" class="gallery-img">
+         <img src="../images/image3.png" alt="Imagen de la Galería 3" class="gallery-img">
+       </div>
+    </section>
+    
+    <!-- Features Section with Modal -->
+    <section class="content-section" id="features">
+       <h2>Características Únicas</h2>
+       <p>
+         Experimenta la textura crujiente y el sabor distintivo que desafía lo ordinario. Descubre la fascinante historia detrás de este extraordinario vegetal.
+       </p>
+       <button id="showFeaturesBtn" class="cta-button">Mostrar Características</button>
+       <!-- Modal Structure -->
+       <div id="featuresModal" class="modal">
+         <div class="modal-content">
+           <span class="close">&times;</span>
+           <h3>Características</h3>
+           <ul>
+             <li>Textura única</li>
+             <li>Sabor distintivo</li>
+             <li>Orígenes misteriosos</li>
+             <li>Versatilidad culinaria</li>
+           </ul>
+         </div>
+       </div>
+    </section>
+    
+    <!-- Cucumber Clicker Game Section -->
+    <section class="content-section" id="game">
+       <h2>Juego: Clic del Pepino</h2>
+       <p>¡Haz clic en el pepino en movimiento tantas veces como puedas antes de que se acabe el tiempo!</p>
+       <button id="startGameBtn" class="cta-button">Iniciar Juego</button>
+       <div id="gameArea"></div>
+       <div id="gameStats">
+         <p>Puntuación: <span id="score">0</span></p>
+         <p>Tiempo Restante: <span id="timeLeft">15</span> segundos</p>
+       </div>
     </section>
   </main>
   
+  <!-- FOOTER with Back-to-Top Button -->
   <footer>
-    <p>&copy; 2025 Pepino Francamente Desaliñado</p>
+    <p>&copy; 2025 Pepino Francamente Desaliñado. Todos los derechos reservados.</p>
     <button id="backToTop" title="Volver arriba">↑</button>
   </footer>
   
