@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ivanLeung36.github.io/franklyshabbycucumber/sitemap.xml
