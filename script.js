@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function() {
     startGameBtn.disabled = true
     
     let cucumber = document.createElement('img')
-    cucumber.src = '../franklyshabbycucumber/images/image.png'
+    cucumber.src = '../franklyshabbycucumbers/images/image.png'
     cucumber.alt = 'Cucumber'
     cucumber.id = 'cucumber'
     cucumber.style.position = 'absolute'
